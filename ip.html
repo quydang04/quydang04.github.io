@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Get Client IP</title>
+
+</head>
+
+<body>
+
+    <h1>Client IP Address:</h1>
+
+    <p id="ip"></p>
+
+    <script>
+
+        fetch('https://api.ipify.org?format=json')
+
+            .then(response => response.json())
+
+            .then(data => {
+
+                document.getElementById('ip').innerHTML = data.ip;
+
+            });
+
+    </script>
+
+</body>
+
+</html>
