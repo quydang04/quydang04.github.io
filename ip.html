@@ -1,33 +1,24 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-    <title>Get Client IP</title>
-
+    <meta charset = "utf-8">
+    <title>Get IP | Quý Đặng Blog</title>
+     <link rel = "icon" href ="https://quydang.name.vn/assets/favicon.png">
 </head>
-
+<style> 
+   *{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    }
 <body>
-
-    <h1>Client IP Address:</h1>
-
-    <p id="ip"></p>
-
     <script>
-
         fetch('https://api.ipify.org?format=json')
-
             .then(response => response.json())
-
             .then(data => {
-
                 document.getElementById('ip').innerHTML = data.ip;
-
             });
-
     </script>
-
 </body>
-
 </html>
