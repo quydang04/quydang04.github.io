@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IP Checker</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+    }
+
+    .container {
+
+      max-width: 500px;
+
+      margin: 0 auto;
+
+      padding: 20px;
+
+    }
+
+    h1 {
+
+      text-align: center;
+
+      margin-bottom: 20px;
+
+    }
+
+    form {
+
+      display: flex;
+
+    }
+
+    input[type="text"] {
+
+      flex-grow: 1;
+
+      padding: 10px;
+
+      border: none;
+
+      border-radius: 5px 0 0 5px;
+
+    }
+
+    button[type="submit"] {
+
+      padding: 10px;
+
+      border: none;
+
+      background-color: #007bff;
+
+      color: #fff;
+
+      border-radius: 0 5px 5px 0;
+
+      cursor: pointer;
+
+    }
+
+    #result-container {
+
+      margin-top: 20px;
+
+      display: none;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>IP Checker</h1>
+
+    <form id="ip-form">
+
+      <input type="text" id="ip-input" placeholder="Enter IP address...">
+
+      <button type="submit" id="submit-btn">Check</button>
+
+    </form>
+
+    <div id="result-container"></div>
+
+  </div>
+
+  <script>
+
+    const form = document.getElementById('ip-form');
+
+    const input = document.getElementById('ip-input');
+
+    const resultContainer = document.getElementById('result-container');
+
+    form.addEventListener('submit', function(e) {
+
+      e.preventDefault();
+
+      const ip = input.value;
+
+      fetch(`https://ipapi.co/${ip}/json/`)
+
+        .then(response => response.json())
+
+        .then(data => {
+
+          resultContainer.innerHTML = `
+
+            <p><strong>IP:</strong> ${data.ip}</p>
+
+            <p><strong>City:</strong> ${data.city}</p>
+
+            <p><strong>Region:</strong> ${data.region}</p>
+
+            <p><strong>Country:</strong> ${data.country_name}</p>
+
+            <p><strong>Latitude:</strong> ${data.latitude}</p>
+
+            <p><strong>Longitude:</strong> ${data.longitude}</p>
+
+          `;
+
+          resultContainer.style.display = 'block';
+
+        })
+
+        .catch(error => {
+
+          resultContainer.innerHTML = '<p>Invalid IP address</p>';
+
+          resultContainer.style.display = 'block';
+
+        });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
+
