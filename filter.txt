@@ -36,3 +36,4 @@
 @@||gravatar.com^$important
 @@||cdn.ampproject.org^$important
 @@||gvt2.com^$important
+@@||fb.com^$important
