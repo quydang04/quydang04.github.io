@@ -37,3 +37,6 @@
 @@||cdn.ampproject.org^$important
 @@||gvt2.com^$important
 @@||fb.com^$important
+@@||mbbank.onelink.me^$important
+@@||bing.com^$important
+@@||live.com^$important
