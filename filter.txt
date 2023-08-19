@@ -26,7 +26,6 @@
 @@||microsoft.com^
 @@||vnnic.vn^
 @@||inet.com.vn^
-@@||apple.com^$important
 @@||nextdns.io^$important
 @@||fbcdn.net^
 @@||translate.google.com^$important
