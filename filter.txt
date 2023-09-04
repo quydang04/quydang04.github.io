@@ -40,3 +40,4 @@
 @@||bing.com^$important
 @@||live.com^$important
 ||ads.pinterest.com^
+@@||instagram.com^$important
