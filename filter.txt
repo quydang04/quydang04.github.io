@@ -30,8 +30,7 @@
 @@||fbcdn.net^
 @@||translate.google.com^$important
 @@||yandex.com^
-@@||vnshare.top^
-@@||urban-vpn.com^$important
+@@||vnshare.top^$important
 @@||gravatar.com^$important
 @@||cdn.ampproject.org^$important
 @@||gvt2.com^$important
