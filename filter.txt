@@ -23,7 +23,8 @@
 ||static.amcdn.vn^
 ||boogleads-g.doubleclick.net^
 ||www.gooletaemanager.com^
-@@||microsoft.com^
+||edge.microsoft.com^$important
+||data.microsoft.com^$important
 @@||vnnic.vn^
 @@||inet.com.vn^
 @@||nextdns.io^$important
