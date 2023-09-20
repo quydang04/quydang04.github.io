@@ -36,7 +36,6 @@
 @@||gvt2.com^$important
 @@||fb.com^$important
 @@||mbbank.onelink.me^$important
-@@||bing.com^$important
 @@||live.com^$important
 ||ads.pinterest.com^
 @@||instagram.com^$important
