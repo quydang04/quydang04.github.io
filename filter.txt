@@ -41,3 +41,5 @@
 ||ads.pinterest.com^
 @@||instagram.com^$important
 @@||one-site.top^$important
+@@||urban-vpn.com^$important
+
