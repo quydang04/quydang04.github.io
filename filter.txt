@@ -44,3 +44,4 @@
 @@||urban-vpn.com^$important
 @@||samsappsbn.vo.llnwd.net^$important
 @@||sspapi-prd.samsungrs.com^$important
+@@||fshare.vn^$important
