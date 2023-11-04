@@ -47,5 +47,7 @@
 @@||fshare.vn^$important
 @@||mytv.vn^$important
 @@||mytvnet.vn^$important
-@@||mediafire.com^
-@@||apkpure.com^
+@@||mediafire.com^$important
+@@||apkpure.com^$important
+@@||cloudflarestatus.com^$important
+
