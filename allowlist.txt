@@ -30,3 +30,4 @@
 @@||mediafire.com^$important
 @@||apkpure.com^$important
 @@||cloudflarestatus.com^$important
+@@||tinhte.vn^$important
